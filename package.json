@@ -1,6 +1,7 @@
 {
-  "name": "m324library",
+  "name": "@8405jonas/m324library",
   "version": "0.1.0",
+  "main": "src/JonasComponent.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
